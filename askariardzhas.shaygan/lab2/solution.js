@@ -1,4 +1,4 @@
-function getZodiacSign(date) {
+export function getZodiacSign(date) {
   const d = new Date(date);
 
   if (isNaN(d.getTime())) {
