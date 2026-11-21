@@ -20,3 +20,4 @@
 
 ```
 node solution.js
+```
