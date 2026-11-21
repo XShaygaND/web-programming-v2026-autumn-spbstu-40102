@@ -47,9 +47,3 @@ function getZodiacSign(date) {
 
   return 'Неизвестный знак';
 }
-
-console.log(getZodiacSign('2000-03-25')); // Овен
-console.log(getZodiacSign('1995-07-15')); // Рак
-console.log(getZodiacSign(new Date(1990, 10, 5))); // Скорпион
-console.log(getZodiacSign('202asdasd4-12-25')); // Козерог
-console.log(getZodiacSign('2023-02-10')); // Водолей

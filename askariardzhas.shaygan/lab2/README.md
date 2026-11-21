@@ -16,8 +16,16 @@
 
 ## Запуск
 
-В консоли перейти в папку с лабораторной работой и выполнить команду:
+Функцию можно проверить в Node.js интерактивно:
 
 ```
-node solution.js
+node
+```
+
+```js
+const {getZodiacSign} = require('./solution.js');
+
+getZodiacSign('2000-03-25'); // Овен
+getZodiacSign('1995-07-15'); // Рак
+getZodiacSign(new Date(1990, 10, 5)); // Скорпион
 ```
