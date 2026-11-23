@@ -21,8 +21,8 @@
 node
 ```
 
-```
-import { sortByFrequency } from './solution.js';
+```js
+const {sortByFrequency} = await import('./solution.js');
 
 sortByFrequency([4, 6, 2, 2, 6, 6, 4, 4, 4, 4]);
 // [4, 4, 4, 4, 4, 6, 6, 6, 2, 2]
