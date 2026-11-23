@@ -23,7 +23,7 @@ node
 ```
 
 ```js
-import {sortByFrequency} from './solution.js';
+import {getZodiacSign} from './solution.js';
 
 getZodiacSign('2000-03-25'); // Овен
 getZodiacSign('1995-07-15'); // Рак
