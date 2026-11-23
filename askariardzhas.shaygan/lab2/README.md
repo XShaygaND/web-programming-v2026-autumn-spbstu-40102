@@ -23,7 +23,7 @@ node
 ```
 
 ```js
-import {getZodiacSign} from './solution.js';
+const {getZodiacSign} = await import('./solution.js');
 
 getZodiacSign('2000-03-25'); // Овен
 getZodiacSign('1995-07-15'); // Рак
